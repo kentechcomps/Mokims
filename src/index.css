@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #e0e0e0;
+  background-color: #0f1419;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #16a085;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+button:focus {
+  outline: 2px solid #1abc9c;
+  outline-offset: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+

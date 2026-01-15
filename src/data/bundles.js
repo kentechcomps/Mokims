@@ -1,0 +1,111 @@
+export const bundles = [
+  // Daily Bundles
+  {
+    id: 1,
+    category: 'Daily',
+    duration: '24 Hours',
+    data: '5GB',
+    price: 70,
+    currency: 'Ksh',
+    description: 'Perfect for short-term heavy usage',
+    tag: null,
+  },
+  {
+    id: 2,
+    category: 'Daily',
+    duration: '24 Hours',
+    data: '10GB',
+    price: 120,
+    currency: 'Ksh',
+    description: 'Double data for intensive users',
+    tag: 'HOT',
+  },
+  
+  // Weekly Bundles
+  {
+    id: 3,
+    category: 'Weekly',
+    duration: '3 Days',
+    data: '8GB',
+    price: 150,
+    currency: 'Ksh',
+    description: 'Ideal for short trips',
+    tag: 'VALUE',
+  },
+  {
+    id: 4,
+    category: 'Weekly',
+    duration: '7 Days',
+    data: '12GB',
+    price: 250,
+    currency: 'Ksh',
+    description: 'Full week of browsing',
+    tag: null,
+  },
+  {
+    id: 5,
+    category: 'Weekly',
+    duration: '7 Days',
+    data: '20GB',
+    price: 400,
+    currency: 'Ksh',
+    description: 'Heavy users weekly plan',
+    tag: null,
+  },
+  
+  // Monthly Bundles
+  {
+    id: 6,
+    category: 'Monthly',
+    duration: '30 Days',
+    data: '50GB',
+    price: 899,
+    currency: 'Ksh',
+    description: 'Perfect for regular streaming',
+    tag: null,
+  },
+  {
+    id: 7,
+    category: 'Monthly',
+    duration: '30 Days',
+    data: '100GB',
+    price: 1499,
+    currency: 'Ksh',
+    description: 'Power users monthly package',
+    tag: 'HOT',
+  },
+  {
+    id: 8,
+    category: 'Monthly',
+    duration: '30 Days',
+    data: '150GB',
+    price: 1999,
+    currency: 'Ksh',
+    description: 'Unlimited browsing experience',
+    tag: null,
+  },
+  
+  // Unlimited Bundles
+  {
+    id: 9,
+    category: 'Unlimited',
+    duration: 'Lifetime',
+    data: 'Unlimited',
+    price: 4999,
+    currency: 'Ksh',
+    description: 'Unlimited data, no restrictions',
+    tag: null,
+  },
+  {
+    id: 10,
+    category: 'Unlimited',
+    duration: 'Lifetime',
+    data: 'Unlimited',
+    price: 7999,
+    currency: 'Ksh',
+    description: 'Priority unlimited with 24/7 support',
+    tag: 'VALUE',
+  },
+];
+
+export const categories = ['All Bundles', 'Daily', 'Weekly', 'Monthly', 'Unlimited'];
