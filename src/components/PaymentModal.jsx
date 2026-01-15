@@ -88,7 +88,7 @@ export default function PaymentModal({ bundle, onClose }) {
           phone: normalizedPhone,
           amount: bundle.price,
           reference,
-          email: 'mutukukennedy34@gmail.com' // required by Paystack
+          email: 'kennmutuku594@gmail.com' // required by Paystack
         })
       })
 
