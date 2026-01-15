@@ -88,7 +88,7 @@ function App() {
 
       <footer className="app-footer">
         <div className="footer-content">
-          <p className="footer-text">Powered by <span className="footer-brand">clarion labs.ink</span></p>
+          <p className="footer-text">Powered by <span className="footer-brand">claron labs.ink</span></p>
           <p className="footer-tagline">Futuristic Connectivity Solutions</p>
         </div>
       </footer>
