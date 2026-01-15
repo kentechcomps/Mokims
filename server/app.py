@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import requests
-from config import PAYSTACK_SECRET_KEY, PAYSTACK_BASE_URL
+from .config import PAYSTACK_SECRET_KEY, PAYSTACK_BASE_URL
 from flask_cors import CORS
 
 app = Flask(__name__)
